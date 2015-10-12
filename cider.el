@@ -8,3 +8,4 @@
 
 ;; Enables eldoc (minibuffer arg hints)
 (add-hook 'cider-mode-hook #'eldoc-mode)
+(add-hook 'clojure-mode-hook #'cider-mode)

@@ -14,6 +14,12 @@
 ;; Get rid of whitespace mode
 (setq prelude-whitespace nil)
 
+;; Don't make the bell sound
+(setq ring-bell-function 'ignore)
+
+
+;; Cache projectile
+(setq projectile-enable-caching t)
 
 ;; Map duplicate line to C-c C-d
 (defun duplicate-line()
@@ -26,3 +32,9 @@
   (yank)
   )
 (global-set-key "\C-c\C-d" 'duplicate-line)
+
+;; Sets Neotree to F8
+(global-set-key [f8] 'neotree-toggle)
+
+;; Turns on line numbers
+(global-linum-mode 1)
