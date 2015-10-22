@@ -17,7 +17,6 @@
 ;; Don't make the bell sound
 (setq ring-bell-function 'ignore)
 
-
 ;; Cache projectile
 (setq projectile-enable-caching t)
 
