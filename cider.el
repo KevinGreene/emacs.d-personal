@@ -1,3 +1,5 @@
+(load "clojure-mode")
+
 ;; Changes cider output
 (setq cider-repl-result-prefix ";; => ")
 
@@ -17,5 +19,3 @@
 (define-clojure-indent
   (defui '(1 :form (:defn)))
   (dom/div '(1 :form)))
-
-
