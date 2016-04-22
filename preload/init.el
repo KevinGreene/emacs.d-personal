@@ -52,4 +52,12 @@
       (unless (file-exists-p dir)
         (make-directory dir)))))
 
+(eval-when-compile
+  (require 'use-package))
+(use-package use-package-chords
+  :config (key-chord-mode 1))
 
+(use-package ace-jump-mode
+  :chords (("jj" . ace-jump-char-mode)
+           ("jk" . ace-jump-word-mode)
+           ("jl" . ace-jump-line-mode)))
