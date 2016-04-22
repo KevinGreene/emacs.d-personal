@@ -31,7 +31,7 @@
   )
 (global-set-key "\C-c\C-d" 'duplicate-line)
 
-;; Sets Neotree to F8
+;; Sets Neotree teo F8
 (global-set-key [f8] 'neotree-toggle)
 
 ;; Sets Alt + Space to delete all whitespace
@@ -52,12 +52,3 @@
       (unless (file-exists-p dir)
         (make-directory dir)))))
 
-(eval-when-compile
-  (require 'use-package))
-(use-package use-package-chords
-  :config (key-chord-mode 1))
-
-(use-package ace-jump-mode
-  :chords (("jj" . ace-jump-char-mode)
-           ("jk" . ace-jump-word-mode)
-           ("jl" . ace-jump-line-mode)))
