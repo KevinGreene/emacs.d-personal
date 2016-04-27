@@ -17,5 +17,4 @@
 
 (use-package ace-jump-mode
   :chords (("jj" . ace-jump-char-mode)
-           ("jk" . ace-jump-word-mode)
-           ("jl" . ace-jump-line-mode)))
+           ("jk" . ace-jump-word-mode)))
