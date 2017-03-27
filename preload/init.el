@@ -10,6 +10,8 @@
 
 ;;; Set Theme
 (disable-theme 'zenburn)
+;; If the below line throws an error, install
+;; the package color-theme-sanityinc-tomorrow
 (setq prelude-theme 'sanityinc-tomorrow-bright)
 
 ;; Get rid of whitespace mode
