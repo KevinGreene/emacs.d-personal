@@ -57,7 +57,7 @@
         (make-directory dir)))))
 
 ;; Bigger font
-(set-face-attribute 'default nil :height 160)
+(set-face-attribute 'default nil :height 150)
 
 
 (defun my-personal-indents (n)
