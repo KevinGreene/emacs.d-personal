@@ -35,7 +35,12 @@
   )
 (global-set-key "\C-c\C-d" 'duplicate-line)
 
+;; Map C-x / to comment region
 (global-set-key "\C-x\/" 'comment-region)
+
+;; Map M-s-l to indent region, formatting the region.
+;; Matches Intellij
+(global-set-key "\M-s-l" 'indent-region)
 
 ;; Sets Neotree teo F8
 (global-set-key [f8] 'neotree-toggle)
